@@ -4,6 +4,30 @@ body{
     color: #333;
     margin: 0;
 }
+img.joke-icon {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.textContainer {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
 .joke-container {
     display: flex;
     flex-direction: column;
