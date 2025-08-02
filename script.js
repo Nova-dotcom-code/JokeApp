@@ -15,4 +15,7 @@ jokeButton.addEventListener('click', async ()=> {
         jokeBox.textContent = 'Failed to fetch a joke. Please try again later.';
         console.error('Error fetching joke:', error);
     }
+    setTimeout(() => {
+        jokeBox.textContent = 'Click the button to get another joke!😅🤣 ...';
+    }, 6000);
 })
