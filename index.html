@@ -2,25 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- ensure proper rendering and touch zooming on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joke App</title>
+    <!-- link to external stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- joke icon image -->
     <img src="joke.png" alt="joke icon" class="joke-icon">
     <div class="textContainer">
         <h1>Welcome to the Joke App!</h1>
+        <!-- description of the app -->
         <p>Start your day with a beautiful laughter—or at least a groan! Click below and let the jokes tickle your funny bone (side effects may include uncontrollable giggling and eye-rolling).</p>
     </div>
     <div class="joke-container">
+        <!-- Box where the joke will be displayed -->
         <div id="jokeBox" class="jokeBox"></div>
+        <!-- Button to fetch a new jokes -->
         <button id="joke-button">Get Joke</button>
     </div>
+    <!-- Footer section with credits -->
     <footer class="footer">
         <p>Made with ❤️ by Ajibola Mustopha P.K.A NOVA</p>
         <p>© 2025 Joke App. All rights reserved.</p>
         <p>Icon from <a rel="noopener" href="https://www.flaticon.com" target="_blank">Flaticon</a></p>
     </footer>
+    <!-- Link to the main JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
