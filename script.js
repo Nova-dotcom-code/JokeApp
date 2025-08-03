@@ -33,5 +33,5 @@ jokeButton.addEventListener('click', async ()=> {
   // This gives the user time to read the joke before it resets
   setTimeout(() => {
     jokeBox.textContent = "Click the button to get another joke!😅🤣 ...";
-  }, 8000);
+  }, 10000);
 })

@@ -56,7 +56,7 @@ p {
     border-radius: 10px;
     background-color: #f9f9f9;
     width: 80%;
-    height: 200px;
+    height: auto;
     overflow: hidden;
 }
 /* Styling for button */
@@ -68,15 +68,15 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     transition: background-color 0.3s, transform 0.3s ease;
-    top: 10px;
+    top: 120%;
     color: #fff;
 }
 button:hover {
     color: #fff;
     background-color: #555;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 /* Button active (pressed) effect */
 button:active{
