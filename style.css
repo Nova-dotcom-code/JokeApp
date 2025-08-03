@@ -68,10 +68,12 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: absolute;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
     transition: background-color 0.3s, transform 0.3s ease;
-    top: 120%;
     color: #fff;
+    
 }
 button:hover {
     color: #fff;
